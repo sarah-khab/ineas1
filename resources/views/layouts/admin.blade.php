@@ -117,7 +117,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{route ('grille.index')}}" class="nav-link">
                             <i class="fas fa-image nav-icon"></i>
                             <p>Les grilles</p>
                             </a>

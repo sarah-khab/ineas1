@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Grille extends Model
 {
     use HasFactory;
+    protected $fillable = ['name'];
     protected $table = "grilles";
     public function chapitres(){
         return $this->hasMany(Chapitre::class);
